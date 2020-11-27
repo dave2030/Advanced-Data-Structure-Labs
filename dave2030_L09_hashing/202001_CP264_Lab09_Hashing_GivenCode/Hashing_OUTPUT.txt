@@ -1,0 +1,97 @@
+
+Enter:: 1) Insert 	 2) Display 	 3) Search 	 4) Exit: 
+1
+::: [1] ==> Insert:
+Enter an integer key/value to insert into Hash table: 
+111
+
+Slot  Collision?  Value Inserted
+====  ==========  ==============
+   1      no                 111
+   1      Yes
+
+Enter:: 1) Insert 	 2) Display 	 3) Search 	 4) Exit: 
+1
+::: [1] ==> Insert:
+Enter an integer key/value to insert into Hash table: 
+112
+
+Slot  Collision?  Value Inserted
+====  ==========  ==============
+   2      no                 112
+   2      Yes
+
+Enter:: 1) Insert 	 2) Display 	 3) Search 	 4) Exit: 
+1
+::: [1] ==> Insert:
+Enter an integer key/value to insert into Hash table: 
+57
+
+Slot  Collision?  Value Inserted
+====  ==========  ==============
+   7      no                  57
+   7      Yes
+
+Enter:: 1) Insert 	 2) Display 	 3) Search 	 4) Exit: 
+1
+::: [1] ==> Insert:
+Enter an integer key/value to insert into Hash table: 
+66
+
+Slot  Collision?  Value Inserted
+====  ==========  ==============
+   6      no                  66
+   6      Yes
+
+Enter:: 1) Insert 	 2) Display 	 3) Search 	 4) Exit: 
+1
+::: [1] ==> Insert:
+Enter an integer key/value to insert into Hash table: 
+71
+
+Slot  Collision?  Value Inserted
+====  ==========  ==============
+   3      no                  71
+   3      Yes
+
+Enter:: 1) Insert 	 2) Display 	 3) Search 	 4) Exit: 
+3
+::: [3] ==> Search:
+
+Enter integer key/value to search:
+44
+Key/Value [44] is not found!
+
+Enter:: 1) Insert 	 2) Display 	 3) Search 	 4) Exit: 
+71
+>>> ERR: Invalid Input: [71]
+
+Enter:: 1) Insert 	 2) Display 	 3) Search 	 4) Exit: 
+3
+::: [3] ==> Search:
+
+Enter integer key/value to search:
+71
+Key/Value [71] is found at index/slot [3]
+
+Enter:: 1) Insert 	 2) Display 	 3) Search 	 4) Exit: 
+2
+::: [2] ==> Display:
+
+Contents of Hash Table:
+====================== 
+Index/Slot   Key/Value 
+==========   ========= 
+         0       empty
+         1         111
+         2         112
+         3          71
+         4       empty
+         5       empty
+         6          66
+         7          57
+         8       empty
+         9       empty
+
+
+Enter:: 1) Insert 	 2) Display 	 3) Search 	 4) Exit: 
